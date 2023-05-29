@@ -9,7 +9,7 @@ export const arrEnt3 = [
     },
     {
         eng: 'facial',
-        vie: 'Chăm sóc da mặt'
+        vie: 'Chăm sóc mặt'
     },
     {
         eng: 'manicure',
@@ -107,4 +107,99 @@ export const arrEnt3 = [
         eng: 'nail polish',
         vie: 'Sơn móng tay'
     },
+    {
+        eng: 'physical features',
+        vie: 'đặc điểm ngoại hình'
+    },
+    {
+        eng: 'beauty',
+        vie: 'vẻ đẹp'
+    },
+    {
+        eng: 'beautiful',
+        vie: 'xinh đẹp'
+    },
+    {
+        eng: 'attractive',
+        vie: 'hấp dẫn'
+    },
+    {
+        eng: 'unattractive',
+        vie: 'không hấp dẫn'
+    },
+    {
+        eng: 'youth',
+        vie: 'tuổi trẻ'
+    },
+    {
+        eng: 'health',
+        vie: 'sức khỏe'
+    },
+    {
+        eng: 'inner beauty',
+        vie: 'vẻ đẹp bên trong'
+    },
+    {
+        eng: 'outer beauty',
+        vie: 'vẻ đẹp bên ngoài'
+    },
+    {
+        eng: 'warmth',
+        vie: 'sự ấm áp'
+    },
+    {
+        eng: 'confidence',
+        vie: 'sự tự tin'
+    },
+    {
+        eng: 'goodness, kindness',
+        vie: 'lòng tốt'
+    },
+    {
+        eng: 'modesty',
+        vie: 'sự khiêm tốn'
+    },
+    {
+        eng: 'honesty',
+        vie: 'trung thực'
+    },
+    {
+        eng: 'surgery',
+        vie: 'phẫu thuật'
+    },
+    {
+        eng: 'cosmetic',
+        vie: 'thẩm mỹ'
+    },
+    {
+        eng: 'liposuction',
+        vie: 'hút mỡ'
+    },
+    {
+        eng: 'hair restoration',
+        vie: 'phục hồi tóc'
+    },
+    {
+        eng: 'chemical peel',
+        vie: 'Lột da hóa học'
+    },
+    {
+        eng: 'overweighed',
+        vie: 'thừa cân'
+    },
+    {
+        eng: 'bald',
+        vie: 'hói'
+    },
+    {
+        eng: 'sun damage',
+        vie: 'cháy nắng'
+    },
 ]
+
+/*
+{
+    eng: '123',
+    vie: '123456'
+},
+*/
