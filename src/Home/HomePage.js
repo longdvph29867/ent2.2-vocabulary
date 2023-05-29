@@ -23,6 +23,7 @@ export default function HomePage() {
   const [data, setData] = useState(arrEnt2);
   const [isData, setIsData] = useState(arrEnt2);
   const [grama, setGrama] = useState(false)
+  const [unit, setUnit] = useState('Unit 2')
 
   const checkString = (str, letters) => {
     return [...letters].every(letter => new RegExp(`(?=.*${letter})`, 'i').test(str));
@@ -36,7 +37,6 @@ export default function HomePage() {
         newArr1.push(item);
       }
     })
-    console.log("🚀 ~ file: HomePage.js:19 ~ onSearch ~ newArr1:", newArr1)
     setData(newArr1);
   };
   return (
@@ -47,16 +47,19 @@ export default function HomePage() {
               setGrama(false)
               setData(arrEnt2)
               setIsData(arrEnt2)
+              setUnit('Unit 2')
               }} className="btn - btn-warning text-white">Unit 2</button>
             <button onClick={() => {
               setGrama(true)
               setData(arrEnt3)
               setIsData(arrEnt3)
+              setUnit('Unit 3')
             }} className="btn - btn-warning text-white mx-2">Unit 3</button>
         </div>
       </header>
       <div className='container'>
-        <Search className='mt-2 mb-2'
+        <h3 className="mt-2">{unit}</h3>
+        <Search className='my-2'
         placeholder="search"
         onChange={onSearch}
         style={{
