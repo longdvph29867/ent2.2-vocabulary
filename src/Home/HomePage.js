@@ -87,7 +87,7 @@ export default function HomePage() {
       </div>
       {grama && (
         <div className="container my-5">
-          <h3>Grama</h3>
+          <h3>Grammar</h3>
           <div className="d-flex flex-wrap">
             {/*  */}
             {arrImgGrama.map((item, index) => [
