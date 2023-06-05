@@ -1,28 +1,18 @@
 import React, { useState } from "react";
 import { Input } from 'antd';
 import { arrEnt2 } from "../Vocabulary/ent2";
-import { arrEnt3 } from "../Vocabulary/ent3";
-import imgGrama1 from '../image/3-p1.1.png'
-import imgGrama2 from '../image/3-p1.2.png'
-import imgGrama3 from '../image/3-p1.3.png'
-import imgGrama4 from '../image/3-p1.4.png'
-import imgGrama5 from '../image/3-p1.5.png'
-import imgGrama6 from '../image/3-p1.6.png'
+import { arrEnt3, arrImgGrama3 } from "../Vocabulary/ent3";
+import { arrEnt4, arrImgGrama4 } from "../Vocabulary/ent4";
+
 const { Search } = Input;
 
-const arrImgGrama = [
-  imgGrama1,
-  imgGrama2,
-  imgGrama3,
-  imgGrama4,
-  imgGrama5,
-  imgGrama6,
-]
+
 
 export default function HomePage() {
   const [data, setData] = useState(arrEnt2);
   const [isData, setIsData] = useState(arrEnt2);
   const [grama, setGrama] = useState(false)
+  const [arrImgGrama, setArrImgGrama] = useState(arrImgGrama3);
   const [unit, setUnit] = useState('Unit 2')
 
   const checkString = (str, letters) => {
@@ -53,8 +43,16 @@ export default function HomePage() {
               setGrama(true)
               setData(arrEnt3)
               setIsData(arrEnt3)
+              setArrImgGrama(arrImgGrama3)
               setUnit('Unit 3')
             }} className="btn - btn-warning text-white mx-2">Unit 3</button>
+            <button onClick={() => {
+              setGrama(true)
+              setData(arrEnt4)
+              setIsData(arrEnt4)
+              setArrImgGrama(arrImgGrama4)
+              setUnit('Unit 6')
+            }} className="btn - btn-warning text-white mx-2">Unit 6</button>
         </div>
       </header>
       <div className='container'>

@@ -1,3 +1,18 @@
+import imgGrama1 from '../image/3-p1.1.png'
+import imgGrama2 from '../image/3-p1.2.png'
+import imgGrama3 from '../image/3-p1.3.png'
+import imgGrama4 from '../image/3-p1.4.png'
+import imgGrama5 from '../image/3-p1.5.png'
+import imgGrama6 from '../image/3-p1.6.png'
+export const arrImgGrama3 = [
+    imgGrama1,
+    imgGrama2,
+    imgGrama3,
+    imgGrama4,
+    imgGrama5,
+    imgGrama6,
+]
+
 export const arrEnt3 = [
     {
         eng: 'haircut',
@@ -196,6 +211,7 @@ export const arrEnt3 = [
         vie: 'cháy nắng'
     },
 ]
+
 
 /*
 {
